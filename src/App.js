@@ -21,6 +21,7 @@ class App extends Component {
     this.setState(novoEstado);
   }
   render() {
+    "AAAAA";
     return (
       <section className="conteudo">
         <FormularioCadastro criarNota={this.criarNota.bind(this)} />
